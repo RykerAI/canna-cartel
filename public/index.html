@@ -1,26 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CannaGuide AI</title>
+  <title>CannaGuide AI - Your Cannabis Companion</title>
+  <link rel="stylesheet" href="styles.css">
   <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
 </head>
 <body>
   <div id="app">
-    <h1>CannaGuide AI</h1>
-    <p>Your AI-powered cannabis guide</p>
+    <div class="container">
+      <h1>🌿 CannaGuide AI</h1>
+      <p>Your intelligent cannabis companion powered by AI</p>
+      
+      <div class="features">
+        <div class="feature">
+          <h3>🔍 Strain Finder</h3>
+          <p>Discover the perfect cannabis strains based on your preferences and desired effects</p>
+          <button onclick="alert('Strain Finder coming soon!')">Explore Strains</button>
+        </div>
+        
+        <div class="feature">
+          <h3>📊 Dosage Calculator</h3>
+          <p>Calculate optimal dosages for edibles, flower, and concentrates safely</p>
+          <button onclick="alert('Dosage Calculator coming soon!')">Calculate Dose</button>
+        </div>
+        
+        <div class="feature">
+          <h3>📝 Effects Journal</h3>
+          <p>Track your cannabis experiences and build your personal profile</p>
+          <button onclick="alert('Effects Journal coming soon!')">Start Tracking</button>
+        </div>
+        
+        <div class="feature">
+          <h3>🤖 AI Assistant</h3>
+          <p>Get personalized recommendations and answers to your cannabis questions</p>
+          <button onclick="alert('AI Assistant coming soon!')">Ask AI</button>
+        </div>
+        
+        <div class="feature">
+          <h3>🏪 Dispensary Locator</h3>
+          <p>Find nearby dispensaries and compare products and prices</p>
+          <button onclick="alert('Dispensary Locator coming soon!')">Find Dispensaries</button>
+        </div>
+        
+        <div class="feature">
+          <h3>📚 Education Hub</h3>
+          <p>Learn about cannabis science, laws, and best practices</p>
+          <button onclick="alert('Education Hub coming soon!')">Learn More</button>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <p>© 2024 CannaGuide AI - Empowering informed cannabis decisions</p>
+      </div>
+    </div>
   </div>
   
+  <script src="app.js"></script>
   <script>
-    // Firebase configuration will go here
+    // Firebase configuration
     const firebaseConfig = {
-      // Add your Firebase config
+      apiKey: "your-api-key",
+      authDomain: "studio-1723995875-1b28c.firebaseapp.com",
+      projectId: "studio-1723995875-1b28c",
+      storageBucket: "studio-1723995875-1b28c.appspot.com",
+      messagingSenderId: "541346803049",
+      appId: "your-app-id"
     };
     
-    // Initialize Firebase
+    // Initialize Firebase when ready
     // firebase.initializeApp(firebaseConfig);
+    console.log('CannaGuide AI Firebase project ready');
   </script>
 </body>
 </html>
